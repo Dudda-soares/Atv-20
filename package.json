@@ -1,0 +1,33 @@
+{
+  "name": "atv-20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dudda-soares/Atv-20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dudda-soares/Atv-20/issues"
+  },
+  "homepage": "https://github.com/Dudda-soares/Atv-20#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^6.0.1",
+    "imagemin": "^7.0.1",
+    "sass": "^1.89.0"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.0"
+  }
+}
