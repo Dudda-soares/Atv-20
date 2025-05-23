@@ -1,0 +1,32 @@
+@use './variaveis';
+
+.hero{
+    padding: 10.6vw;
+    min-height: 80vh;
+    background-image: url(../image/hero-test.png);
+    text-align: center;
+    background-size: cover;
+
+    &__content {
+        max-width:640px ;
+
+        &__branding{
+            max-width: 320px;
+
+            img{
+                width: 549px;
+            }
+
+            @media (max-width: 768px){
+                max-width: 180px;
+            }
+
+            .titulo--small{
+                margin-bottom: 64px;
+                width: 435px;
+                margin-left: 46px;
+            }
+        }
+        
+    }
+}
