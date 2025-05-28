@@ -1,0 +1,32 @@
+
+
+.perfil{
+    padding: 3vw 15.6vw;
+    justify-items: center;
+    
+
+    h2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__list{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       
+
+        img{
+            width: 100%;
+            
+            cursor: pointer;
+
+            &:hover{
+                
+                transform: scale(1.05);
+
+            }
+        }
+    }
+}
