@@ -18,7 +18,7 @@
             text-transform: uppercase;
             margin: 0 1vw;
             cursor: pointer;
-            border-bottom: 5px solid transparent;
+            border-bottom: 1px solid transparent;
 
             &--is--active{
                 border-color: variaveis.$corTextoSegundario;
@@ -42,16 +42,19 @@
         &__item{
 
             display: grid;
-            width: 272px;
-            height: 418px;
+            width: 273px;
+            height: 383px;
             position: relative;
             overflow: hidden;
+            border-radius: 10px;
 
-            
+            &:hover{
+                border: 2px solid #040714;
+                box-shadow: 1px 1px 11px 0px #4c65d5;
+            }
       
             img{
                 width: 100%;
-                border-radius: 10px;
                 height: 100%;
                 object-fit: contain;
                 cursor: pointer;
@@ -89,8 +92,9 @@
 
             }
             &:hover img {
-                filter: brightness(0.5); // escurece levemente a imagem
-                }
+                filter: brightness(0.5); 
+                // escurece levemente a imagem
+            }
 
             &:hover .arcos__flip__back {
                 opacity: 1;

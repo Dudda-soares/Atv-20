@@ -2,9 +2,11 @@
 .hero {
   padding: 10.6vw;
   min-height: 80vh;
-  background-image: url(../image/hero-2.png);
+  background-image: url(../image/abc.png);
   text-align: center;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero__content {
   max-width: 640px;
@@ -43,7 +45,7 @@
   text-transform: uppercase;
   margin: 0 1vw;
   cursor: pointer;
-  border-bottom: 5px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 .arcos__tabs__button--is--active {
   border-color: #f9f9f9;
@@ -59,14 +61,18 @@
 }
 .arcos__list__item {
   display: grid;
-  width: 272px;
-  height: 418px;
+  width: 273px;
+  height: 383px;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
+}
+.arcos__list__item:hover {
+  border: 2px solid #040714;
+  box-shadow: 1px 1px 11px 0px #4c65d5;
 }
 .arcos__list__item img {
   width: 100%;
-  border-radius: 10px;
   height: 100%;
   object-fit: contain;
   cursor: pointer;

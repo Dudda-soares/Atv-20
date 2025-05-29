@@ -3,10 +3,11 @@
 .hero{
     padding: 10.6vw;
     min-height: 80vh;
-    background-image: url(../image/hero-2.png);
+    background-image: url(../image/abc.png);
     text-align: center;
-    background-size: cover;
-
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     &__content {
         max-width:640px ;
 
