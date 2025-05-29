@@ -31,8 +31,8 @@
     &__list{
 
         display: none;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 58px;
         margin-top: 30px;
         
 
@@ -41,23 +41,62 @@
         }
         &__item{
 
-            display: block;
-            width: 383px;
-            height: 509px;
+            display: grid;
+            width: 272px;
+            height: 418px;
+            position: relative;
+            overflow: hidden;
+
+            
+      
             img{
                 width: 100%;
-                border-radius: 6px;
+                border-radius: 10px;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 cursor: pointer;
-
-                &:hover{
-                    transform: scale(1.05);
-                }
+                transition: 0.4s ease;
             }
         }
         
     }
+
+    &__flip{
+            
+            &__front{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+            
+            }
+            &__back{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.6); // escurece
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                opacity: 0;
+                transition: 0.4s ease;
+                padding: 20px;
+
+            }
+            &:hover img {
+                filter: brightness(0.5); // escurece levemente a imagem
+                }
+
+            &:hover .arcos__flip__back {
+                opacity: 1;
+            }
+
+        }
 
 
 }

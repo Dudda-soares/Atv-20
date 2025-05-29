@@ -50,27 +50,56 @@
 }
 .arcos__list {
   display: none;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 58px;
   margin-top: 30px;
 }
 .arcos__list--is--active {
   display: grid;
 }
 .arcos__list__item {
-  display: block;
-  width: 383px;
-  height: 509px;
+  display: grid;
+  width: 272px;
+  height: 418px;
+  position: relative;
+  overflow: hidden;
 }
 .arcos__list__item img {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 10px;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.arcos__flip__front {
+  position: relative;
+  width: 100%;
+  height: 100%;
   cursor: pointer;
 }
-.arcos__list__item img:hover {
-  transform: scale(1.05);
+.arcos__flip__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: 0.4s ease;
+  padding: 20px;
+}
+.arcos__flip:hover img {
+  filter: brightness(0.5);
+}
+.arcos__flip:hover .arcos__flip__back {
+  opacity: 1;
 }
 
 .perfil {
@@ -85,14 +114,44 @@
 .perfil__list {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
+}
+.perfil__list__item {
+  perspective: 1000px;
+  width: 225px;
+  height: 346px;
+  position: relative;
+}
+.perfil__list__item:hover {
+  z-index: 10;
+}
+.perfil__list__item:hover .flip {
+  transform: rotateY(180deg);
 }
 .perfil__list img {
   width: 100%;
   cursor: pointer;
 }
-.perfil__list img:hover {
-  transform: scale(1.05);
+.perfil .flip__container .flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.perfil .flip__container .flip__front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.perfil .flip__container .flip__back {
+  transform: rotateY(180deg) scale(1.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
 .maps {
