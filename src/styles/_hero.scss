@@ -1,11 +1,11 @@
 @use './variaveis';
 
 .hero{
-    padding: 10.6vw;
-    min-height: 80vh;
+    padding:0vw 10.6vw;
+    min-height: 88vh;
     background-image: url(../image/abc.png);
     text-align: center;
-    background-size: contain;
+    background-size: 80% 825px;
     background-position: center;
     background-repeat: no-repeat;
     &__content {

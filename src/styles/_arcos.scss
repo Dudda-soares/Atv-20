@@ -2,12 +2,21 @@
 
 .arcos{
     
-    padding: 3vw 15.6vw;
-    min-height: 60vw;
+    padding: 4vw 9.6vw;
     justify-items: center;
+    display: flex;
+    align-items: center;
     
     &__tabs{
-        display: flex;
+        background-image: url(../../dist/image/FUNDO3.png);
+        background-size: 100% 406px;
+        background-repeat: no-repeat;
+        display: flex ;
+        flex-direction: column;
+        margin-right: 45px;
+        height: 288px;
+        width: 333px;
+        background-color: transparent;
         justify-content: center;
 
         &__button{
@@ -16,7 +25,7 @@
             border: none;
             background: none;
             text-transform: uppercase;
-            margin: 0 1vw;
+            margin: 11px 3vw;
             cursor: pointer;
             border-bottom: 1px solid transparent;
 

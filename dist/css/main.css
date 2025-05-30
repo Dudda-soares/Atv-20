@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .hero {
-  padding: 10.6vw;
-  min-height: 80vh;
+  padding: 0vw 10.6vw;
+  min-height: 88vh;
   background-image: url(../image/abc.png);
   text-align: center;
-  background-size: contain;
+  background-size: 80% 825px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -29,12 +29,21 @@
 }
 
 .arcos {
-  padding: 3vw 15.6vw;
-  min-height: 60vw;
+  padding: 4vw 9.6vw;
   justify-items: center;
+  display: flex;
+  align-items: center;
 }
 .arcos__tabs {
+  background-image: url(../../dist/image/FUNDO3.png);
+  background-size: 100% 406px;
+  background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+  height: 288px;
+  width: 333px;
+  background-color: transparent;
   justify-content: center;
 }
 .arcos__tabs__button {
@@ -43,7 +52,7 @@
   border: none;
   background: none;
   text-transform: uppercase;
-  margin: 0 1vw;
+  margin: 11px 3vw;
   cursor: pointer;
   border-bottom: 1px solid transparent;
 }
@@ -115,7 +124,19 @@
 .perfil h2, .perfil .h2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 0;
+  font-family: fantasy;
+  font-size: 58px;
+  letter-spacing: 2px;
+}
+.perfil h2 img, .perfil .h2 img {
+  position: absolute;
+  z-index: 1;
+  width: 102px;
+  left: 795px;
+  bottom: 9px;
 }
 .perfil__list {
   display: grid;
@@ -165,7 +186,10 @@
   justify-items: center;
 }
 .maps h2, .maps .h2 {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  font-family: fantasy;
+  font-size: 58px;
+  letter-spacing: 2px;
 }
 
 .header {
@@ -185,7 +209,7 @@
   visibility: hidden;
 }
 .header__container {
-  padding: 8px 36px;
+  padding: 0px 36px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,7 +220,7 @@
   }
 }
 .header__logo {
-  max-width: 80px;
+  max-width: 60px;
   width: 100%;
   margin: 5px;
   transition: opacity 0.5s ease;
@@ -12190,4 +12214,12 @@ body {
   z-index: 5;
   margin-top: 100px;
   padding: 3vw 22.6vw;
+}
+
+.carousel-indicators {
+  bottom: 55px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 59%;
 }
