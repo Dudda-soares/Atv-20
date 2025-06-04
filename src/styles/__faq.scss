@@ -1,0 +1,72 @@
+@use './variaveis';
+
+.faq{
+    
+    background-image:  url(../../dist/image/zzzz.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: 31% -20%;
+    padding: 9.6vw;
+
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: fantasy;
+        letter-spacing: 2px;
+    }
+    &__pergunta{
+
+        &__item{
+            background-color: variaveis.$corDeFundoBotaoAlt;
+            margin-bottom: 16px;
+            list-style-type: none;
+
+            &__questao{
+                color: #fff;
+                font-size: 20px;
+                padding: 24px;
+                display: block;
+                cursor: pointer;
+                position: relative;
+
+                &::after{
+                    content:  '+';
+                    position: absolute;
+                    top: 0;
+                    right: 24px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-size: 40px;
+                }
+            }
+
+            &__resposta{
+               background-color: #0f011d49;
+                height: 0;
+                overflow: hidden;
+                padding: 0 24px;
+                transition: height, .6s ease;
+
+                &__topicos{
+                    line-height: 3.4;
+                    letter-spacing: 0;
+                }
+
+            }
+
+            &--is--open{
+
+                .faq__pergunta__item__questao::after {
+                    content: '-';
+                }
+                .faq__pergunta__item__resposta{
+               
+                    height: auto;
+                    padding-bottom: 24px;
+                    transition: height, .5s ease;
+                }
+            }
+        }
+    }
+}

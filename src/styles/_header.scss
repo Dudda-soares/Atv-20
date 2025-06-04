@@ -55,7 +55,24 @@
 
     .button{
         
-        height: 50px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+        width: 100%;
+        letter-spacing: 1px;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        text-decoration: none;
+        color: variaveis.$corTextoSegundario;
+        background-color: variaveis.$corDeFundoBotaoPrimario;
+
+        &:hover{
+            background-color: variaveis.$corDeFundoBotaoSecundario;
+            color:  black;
+        }
+
+
 
         @media (max-width:768px){
             font-size: 13px;

@@ -1,490 +1,855 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>One Piece</title>
-    <link rel="stylesheet" href="./dist/css/main.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./dist/image/ca2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__container">
-            <h1 >
-                <img class="header__logo" src="./dist/image/cavera.png" alt="disney">
-            </h1>
-            <ul class="header__links">
-                <li class="header__links__item">
-                    <a href="" class="button button--secundario">Assine agora</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="" class="button button--dark">Entrar</a>
-                </li>
-            </ul>
-        </div>
+      <div class="header__container">
+        <h1>
+          <img
+            class="header__logo"
+            src="./dist/image/cavera.png"
+            alt="logo one piece"
+          />
+        </h1>
+        <ul class="header__links">
+          <li class="header__links__item">
+            <a
+              href="https://www.crunchyroll.com/pt-br/series/GRMG8ZQZR/one-piece?srsltid=AfmBOoqboNYq8IuiNh64oQ0NN9Xl2L4ZRhA8qeduFJVbIUaArKe4oj46"
+              target="_blank"
+              class="button button--secundario"
+              >Assistir agora</a
+            >
+          </li>
+          <li class="header__links__item">
+            <a href="" class="button button--dark">Entrar</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <section class="hero">
-        <div class="hero__content">
-            <div class="hero__content__branding">
-        </div>
+      <div class="hero__content">
+        <div class="hero__content__branding"></div>
+      </div>
     </section>
     <section>
-         <div>
-            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div data-bs-interval="5000" class="carousel-item active">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/1.png" alt="" style="max-height: 500px; object-fit: cover; border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/2.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/4.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff"> 
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/5.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/6.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/7.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/8.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/9.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                    <div data-bs-interval="5000" class="carousel-item">
-                        <img class="d-block mx-auto rounded-5" src="./dist/image/slide/10.png" alt="" style="max-height: 500px; object-fit: cover;border: 3px solid #fff">
-                        <div class="carousel-caption"></div>
-                    </div>
-                </div>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev " type="button">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button class="active" data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="0"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="1"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="2"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="3"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="4"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="5"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="6"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="7"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="8"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="9"></button>
-                    <button data-bs-target="#carousel-exemplo" type="button" data-bs-slide-to="10"></button>
-                </div>
-            </div>
+      <div
+        id="carousel-exemplo"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="5000" class="carousel-item active">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/1.png"
+              alt="Frase de luffy"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/2.png"
+              alt="frase de sanji"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/3.png"
+              alt="frase zoro"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/4.png"
+              alt="frase robi "
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/5.png"
+              alt="frase nami"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/6.png"
+              alt="frase chopper"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/7.png"
+              alt="frase Usopp"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/8.png"
+              alt="farse franky"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/9.png"
+              alt="frase brook"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
+          <div data-bs-interval="5000" class="carousel-item">
+            <img
+              class="d-block mx-auto rounded-5"
+              src="./dist/image/slide/10.png"
+              alt="frase jinbe"
+              style="
+                max-height: 500px;
+                object-fit: cover;
+                border: 3px solid #fff;
+              "
+            />
+            <div class="carousel-caption"></div>
+          </div>
         </div>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          id="prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          id="next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div id="indicadores-carousel" class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="5"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="6"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="7"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="8"
+          ></button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            type="button"
+            data-bs-slide-to="9"
+          ></button>
+        </div>
+      </div>
     </section>
     <section class="arcos">
-            <nav class="arcos__tabs">
-                <button data-tab-button="frutas" class="arcos__tabs__button arcos__tabs__button--is--active">Frutas</button>
-                <button data-tab-button="arcos" class="arcos__tabs__button ">Arcos</button>
-                <button data-tab-button="filme" class="arcos__tabs__button ">Filmes</button>
-            </nav>
-            <ul data-tab-id="frutas" class="arcos__list arcos__list--is--active ">
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/f-luffy.png" alt="Hito Hito no Mi, Moderu Nika">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Hito Hito no Mi, Moderu "Nika"</h3>
-                            <p>
-                            <strong>Tipo:</strong> Zoan Mitica
-                            <br/>
-                            <strong>Significado:</strong>
-                                Borracha (Humano)
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/Frobi.png" alt="Hanahana-no-Mi">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Hanahana-no-Mi</h3>
-                            <p>
-                            <strong>Tipo:</strong> Paramecia
-                            <br/>
-                            <strong>Significado:</strong>
-                                Flor
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/f-chopper.png" alt="Hito Hito no Mi">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Hito Hito no Mi</h3>
-                            <p>
-                            <strong>Tipo:</strong> Zoan
-                            <br/>
-                            <strong>Significado:</strong>
-                                    Humano
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/f-laaw.png" alt="Ope Ope no Mi">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Ope Ope no Mi</h3>
-                            <p>
-                            <strong>Tipo:</strong> Paramecia
-                            <br/>
-                            <strong>Significado:</strong>
-                                    Operação
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/ace.png" alt="Mera Mera no Mi">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Mera Mera no Mi</h3>
-                            <p>
-                            <strong>Tipo:</strong> Logia
-                            <br/>
-                            <strong>Significado:</strong>
-                                   Som do fogo queimando
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/frutas/kid.png" alt="Jiki Jiki no Mi">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Jiki Jiki no Mi</h3>
-                            <p>
-                            <strong>Tipo:</strong> Paramecia
-                            <br/>
-                            <strong>Significado:</strong>
-                                   Magnetismo
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <ul data-tab-id="arcos" class="arcos__list">
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/download (54).jpg" alt="arco de alabasta">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Alabasta</h3>
-                            <p>
-                            <strong>Volumes:</strong> 17-24, 8 volumes 
-                            <br/>
-                            <strong>Lançamento:</strong> 2000-2002
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/EniesLobby.jpg" alt="">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Enies Lobby</h3>
-                            <p>
-                            <strong>Volumes:</strong>39-44, 6 volumes 
-                            <br/>
-                            <strong>Lançamento:</strong>2005-2006
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/download (55).jpg" alt="Arco Skypiea">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Skypiea</h3>
-                            <p>
-                            <strong>Volumes:</strong> 26-32, 7 volumes 
-                            <br/>
-                            <strong>Lançamento:</strong> 2002-2003
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/download (58).jpg" alt="Arco Marineford">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Marineford</h3>
-                            <p>
-                            <strong>Volumes:</strong> 56-59, 4 volumes 
-                            <br/>
-                            <strong>Lançamento:</strong>2009-2010
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/wano.jpg" alt="Arco Wano">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Wano</h3>
-                            <p>
-                            <strong>Volumes:</strong> 90-105, 16 volumes 
-                            <br/>
-                            <strong>Lançamento:</strong>2018-2022
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/Arco_Egghead.jpg" alt="Arco Egghead">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Arco Egghead</h3>
-                            <p>
-                            <strong>Volumes:</strong>105-
-                            <br/>
-                            <strong>Lançamento:</strong>2022-2024
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <ul data-tab-id="filme" class="arcos__list ">
-                 <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/p1.jpg" alt="Barão Omatsuri e a Ilha Secreta">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>Barão Omatsuri e a Ilha Secreta</h3>
-                            <p>
-                            <strong>Lançamento:</strong>
-                                Estreou no Japão em 5 de março de 2005.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/One Piece Film_ Strong World (2009).jpg" alt="One Piece Filme: Strong World">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>One Piece Filme: Strong World</h3>
-                            <p>
-                            <strong>Lançamento:</strong> Estreou no Japão em 12 de dezembro de 2009.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/One Piece Film_ Z (2012).jpg" alt="One Piece Filme: Z">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>One Piece Filme: Z</h3>
-                            <p>
-                            <strong>Lançamento:</strong> Estreou no Japão em 15 de dezembro de 2012.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/One Piece Film_ Gold (2016).jpg" alt="One Piece Filme: Gold">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>One Piece Filme: Gold</h3>
-                            <p>
-                            <strong>Lançamento:</strong> Estreou no Japão em 23 de julho de 2016.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/One Piece STAMPEDE 2019.jpg" alt="One Piece: Stampede">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>One Piece: Stampede</h3>
-                            <p>
-                            <strong>Lançamento:</strong> no Japão em 9 de agosto de 2019.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="arcos__list__item">
-                    <div class="arcos__flip">
-                        <div class="arcos__flip__front">
-                            <img src="./dist/image/arcos/filmes/download (59).jpg" alt="One Piece Filme: Red">
-                        </div>
-                        <div class="arcos__flip__back">
-                            <h3>One Piece Filme: Red</h3>
-                            <p>
-                            <strong>Lançamento:</strong> Estreou no Japão em 6 de agosto de 2022
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+      <nav class="arcos__tabs">
+        <button
+          data-tab-button="frutas"
+          class="arcos__tabs__button arcos__tabs__button--is--active"
+        >
+          Frutas
+        </button>
+        <button data-tab-button="arcos" class="arcos__tabs__button">
+          Arcos
+        </button>
+        <button data-tab-button="filme" class="arcos__tabs__button">
+          Filmes
+        </button>
+      </nav>
+      <ul data-tab-id="frutas" class="arcos__list arcos__list--is--active">
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/f-luffy.png"
+                alt="Hito Hito no Mi, Moderu Nika"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Hito Hito no Mi, Moderu "Nika"</h3>
+              <p>
+                <strong>Tipo:</strong> Zoan Mitica
+                <br />
+                <strong>Significado:</strong>
+                Borracha (Humano)
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/Frobi.png"
+                alt="Hanahana-no-Mi"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Hanahana-no-Mi</h3>
+              <p>
+                <strong>Tipo:</strong> Paramecia
+                <br />
+                <strong>Significado:</strong>
+                Flor
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/f-chopper.png"
+                alt="Hito Hito no Mi"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Hito Hito no Mi</h3>
+              <p>
+                <strong>Tipo:</strong> Zoan
+                <br />
+                <strong>Significado:</strong>
+                Humano
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/f-laaw.png"
+                alt="Ope Ope no Mi"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Ope Ope no Mi</h3>
+              <p>
+                <strong>Tipo:</strong> Paramecia
+                <br />
+                <strong>Significado:</strong>
+                Operação
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/ace.png"
+                alt="Mera Mera no Mi"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Mera Mera no Mi</h3>
+              <p>
+                <strong>Tipo:</strong> Logia
+                <br />
+                <strong>Significado:</strong>
+                Som do fogo queimando
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/frutas/kid.png"
+                alt="Jiki Jiki no Mi"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Jiki Jiki no Mi</h3>
+              <p>
+                <strong>Tipo:</strong> Paramecia
+                <br />
+                <strong>Significado:</strong>
+                Magnetismo
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul data-tab-id="arcos" class="arcos__list">
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/download (54).jpg"
+                alt="arco de alabasta"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Alabasta</h3>
+              <p>
+                <strong>Volumes:</strong> 17-24, 8 volumes
+                <br />
+                <strong>Lançamento:</strong> 2000-2002
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img src="./dist/image/arcos/EniesLobby.jpg" alt="" />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Enies Lobby</h3>
+              <p>
+                <strong>Volumes:</strong>39-44, 6 volumes
+                <br />
+                <strong>Lançamento:</strong>2005-2006
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/download (55).jpg"
+                alt="Arco Skypiea"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Skypiea</h3>
+              <p>
+                <strong>Volumes:</strong> 26-32, 7 volumes
+                <br />
+                <strong>Lançamento:</strong> 2002-2003
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/download (58).jpg"
+                alt="Arco Marineford"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Marineford</h3>
+              <p>
+                <strong>Volumes:</strong> 56-59, 4 volumes
+                <br />
+                <strong>Lançamento:</strong>2009-2010
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img src="./dist/image/arcos/wano.jpg" alt="Arco Wano" />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Wano</h3>
+              <p>
+                <strong>Volumes:</strong> 90-105, 16 volumes
+                <br />
+                <strong>Lançamento:</strong>2018-2022
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/Arco_Egghead.jpg"
+                alt="Arco Egghead"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Arco Egghead</h3>
+              <p>
+                <strong>Volumes:</strong>105-
+                <br />
+                <strong>Lançamento:</strong>2022-2024
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul data-tab-id="filme" class="arcos__list">
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/p1.jpg"
+                alt="Barão Omatsuri e a Ilha Secreta"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>Barão Omatsuri e a Ilha Secreta</h3>
+              <p>
+                <strong>Lançamento:</strong>
+                Estreou no Japão em 5 de março de 2005.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/One Piece Film_ Strong World (2009).jpg"
+                alt="One Piece Filme: Strong World"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>One Piece Filme: Strong World</h3>
+              <p>
+                <strong>Lançamento:</strong> Estreou no Japão em 12 de dezembro
+                de 2009.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/One Piece Film_ Z (2012).jpg"
+                alt="One Piece Filme: Z"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>One Piece Filme: Z</h3>
+              <p>
+                <strong>Lançamento:</strong> Estreou no Japão em 15 de dezembro
+                de 2012.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/One Piece Film_ Gold (2016).jpg"
+                alt="One Piece Filme: Gold"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>One Piece Filme: Gold</h3>
+              <p>
+                <strong>Lançamento:</strong> Estreou no Japão em 23 de julho de
+                2016.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/One Piece STAMPEDE 2019.jpg"
+                alt="One Piece: Stampede"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>One Piece: Stampede</h3>
+              <p>
+                <strong>Lançamento:</strong> no Japão em 9 de agosto de 2019.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="arcos__list__item">
+          <div class="arcos__flip">
+            <div class="arcos__flip__front">
+              <img
+                src="./dist/image/arcos/filmes/download (59).jpg"
+                alt="One Piece Filme: Red"
+              />
+            </div>
+            <div class="arcos__flip__back">
+              <h3>One Piece Filme: Red</h3>
+              <p>
+                <strong>Lançamento:</strong> Estreou no Japão em 6 de agosto de
+                2022
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
     <section class="perfil">
-        <div class="flip__container">
-            <h2 class="titulo"><img src="./dist/image/perfil/Luffy_Hat-removebg-preview.png" alt="" srcset="">Piratas Mugiwaras</h2>
-                <ul class="perfil__list ">
-                        <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/anime one piece.jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/luffy.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                        <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/BountyZoro.jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/zoro.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/anime one piece (1).jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/sanji.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/Jinbe.jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/jimbei.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/download (49).jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/usopp.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/Nico Robin.jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/robi.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/download (50).jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/franky.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/download (52).jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/brook.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/Nami.jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/nami.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                         <li class="perfil__list__item">
-                            <div class="flip">
-                                <div class="flip__front">
-                                    <img src="./dist/image/perfil/download (51).jpg" alt="">
-                                </div>
-                                <div class="flip__back">
-                                    <img src="./dist/image/perfil/chopper.png" alt="">
-                                </div>
-                            </div>
-                        </li>
-                        
-                    
-                   
-                </ul>
-        </div>
-        
+      <div class="flip__container">
+        <h2 class="titulo">
+          <img
+            src="./dist/image/perfil/Luffy_Hat-removebg-preview.png"
+            alt="chapeu de palha"
+            srcset=""
+          />Piratas Mugiwaras
+        </h2>
+        <ul class="perfil__list">
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img
+                  src="./dist/image/perfil/anime one piece.jpg"
+                  alt="Monkey D. Luffy"
+                />
+              </div>
+              <div class="flip__back">
+                <img
+                  src="./dist/image/perfil/luffy.png"
+                  alt="Perfil de Monkey D luffy"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img
+                  src="./dist/image/perfil/BountyZoro.jpg"
+                  alt="Roronora Zoro"
+                />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/zoro.png" alt="Perfil Zoro" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img
+                  src="./dist/image/perfil/anime one piece (1).jpg"
+                  alt="Sanji"
+                />
+              </div>
+              <div class="flip__back">
+                <img
+                  src="./dist/image/perfil/sanji.png"
+                  alt="Perfil de Sanji"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img src="./dist/image/perfil/Jinbe.jpg" alt="Jimbe" />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/jimbei.png" alt="Perfil Jimbe" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img src="./dist/image/perfil/download (49).jpg" alt="Usopp" />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/usopp.png" alt="perfil Usopp" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img
+                  src="./dist/image/perfil/Nico Robin.jpg"
+                  alt="Nico Robin"
+                />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/robi.png" alt="Perfil Robin" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img src="./dist/image/perfil/download (50).jpg" alt="Franky" />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/franky.png" alt="Perfil franky" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img src="./dist/image/perfil/download (52).jpg" alt="Brook" />
+              </div>
+              <div class="flip__back">
+                <img
+                  src="./dist/image/perfil/brook.png"
+                  alt="Perfil do Brook"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img src="./dist/image/perfil/Nami.jpg" alt="Nami" />
+              </div>
+              <div class="flip__back">
+                <img src="./dist/image/perfil/nami.png" alt="Perfil da nami" />
+              </div>
+            </div>
+          </li>
+          <li class="perfil__list__item">
+            <div class="flip">
+              <div class="flip__front">
+                <img
+                  src="./dist/image/perfil/download (51).jpg"
+                  alt="Chopper"
+                />
+              </div>
+              <div class="flip__back">
+                <img
+                  src="./dist/image/perfil/chopper.png"
+                  alt="Perfil Chopper"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="maps">
-        <h2 class="titulo">Mapa do Novo Mundo</h2>
-       <div class="sketchfab-embed-wrapper"> <iframe title="One Piece Luffy Adventure Map - 2000-2020" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="800" height="590" src="https://sketchfab.com/models/253e2b4cec4e47c3958d3ad5811c77bd/embed?autostart=1&transparent=1"> </iframe> </div>
+      <h2 class="titulo">Mapa do Novo Mundo</h2>
+      <div class="sketchfab-embed-wrapper">
+        <iframe
+          title="One Piece Luffy Adventure Map - 2000-2020"
+          frameborder="0"
+          allowfullscreen
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking
+          execution-while-out-of-viewport
+          execution-while-not-rendered
+          web-share
+          width="800"
+          height="590"
+          src="https://sketchfab.com/models/253e2b4cec4e47c3958d3ad5811c77bd/embed?autostart=1&transparent=1"
+        >
+        </iframe>
+      </div>
     </section>
-    
+    <section class="faq">
+      <h2 class="titulo">Perguntas Frequentes</h2>
+      <ul class="faq__pergunta">
+        <li class="faq__pergunta__item">
+          <div class="faq__pergunta__item__questao" data-faq-question>
+            O que é o anime One Piece?
+          </div>
+          <div class="faq__pergunta__item__resposta">
+            <p class="text">
+              <span class="faq__pergunta__item__resposta__topicos">
+                • One Piece é uma série de mangá e anime criada por Eiichiro
+                Oda. <br />
+                A história segue Monkey D. Luffy e sua tripulação em busca do
+                maior tesouro do mundo, o “One Piece”, para se tornar o Rei dos
+                Piratas.
+              </span>
+            </p>
+          </div>
+        </li>
+        <li class="faq__pergunta__item">
+          <div class="faq__pergunta__item__questao" data-faq-question>
+            Onde posso assistir o anime One Piece?
+          </div>
+          <div class="faq__pergunta__item__resposta">
+            <p class="text">
+              <span class="faq__pergunta__item__resposta__topicos">
+                • O anime está disponível em plataformas de streaming como
+                Crunchyroll, Netflix (parcialmente), e outras conforme a região.
+                <br />
+                Também é possível acompanhar episódios recentes de forma oficial
+                e legendada.
+              </span>
+            </p>
+          </div>
+        </li>
+        <li class="faq__pergunta__item">
+          <div class="faq__pergunta__item__questao" data-faq-question>
+            Quantos episódios e capítulos existem atualmente?
+          </div>
+          <div class="faq__pergunta__item__resposta">
+            <p class="text">
+              <span class="faq__pergunta__item__resposta__topicos">
+                • Atualmente, One Piece ultrapassou os 1100 episódios no anime e
+                mais de 1100 capítulos no mangá. O número exato pode variar,
+                pois novos conteúdos são lançados semanalmente.
+              </span>
+            </p>
+          </div>
+        </li>
+        <li class="faq__pergunta__item">
+          <div class="faq__pergunta__item__questao" data-faq-question>
+            Quem é o autor de One Piece?
+          </div>
+          <div class="faq__pergunta__item__resposta">
+            <p class="text">
+              <span class="faq__pergunta__item__resposta__topicos">
+                • Eiichiro Oda é o criador, escritor e ilustrador de One Piece.
+                Ele começou a série em 1997 na revista Weekly Shonen Jump da
+                editora Shueisha.
+              </span>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__links">
+          <li class="footer__links__item">
+            <div class="liguagem">
+              <img src="./dist/image/globe.svg" alt="" />
+              <select>
+                <option>English</option>
+                <option selected>Português</option>
+              </select>
+            </div>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Termos e Condições de uso</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="" class="text--small">Política de privacidade</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Anúncios personalizados</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="" class="text--small"> Dispositivos compatíveis</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Ajuda</a>
+          </li>
+        </ul>
+        <p class="text--small">
+          2025 &copy; Eduarda Soares - Projeto academico
+        </p>
+      </div>
+    </footer>
     <script src="./dist/js/bootstrap.bundle.js"></script>
     <script src="./dist/js/main.js"></script>
-</body>
+  </body>
 </html>

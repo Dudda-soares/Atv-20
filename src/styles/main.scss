@@ -3,8 +3,10 @@
 @use './arcos';
 @use './perfil';
 @use './maps';
-@use './carrousel';
 @use './header';
+@use './footer';
+@use './_faq';
+@use './carrousel';
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -88,18 +90,4 @@ body{
         @include titulo(24px);
     }
 }
-.carousel {
-    z-index: 5;
-    margin-top: 100px; 
-    padding: 3vw 22.6vw;
-     
-}
-.carousel-indicators{
-    bottom: 55px;
-}
-.carousel-control-prev, .carousel-control-next {
 
-    width: 59%;
-    
-    
-}

@@ -2,12 +2,31 @@
 
 .hero{
     padding:0vw 10.6vw;
-    min-height: 88vh;
+    min-height: 92vh;
     background-image: url(../image/abc.png);
     text-align: center;
-    background-size: 80% 825px;
+    background-size: 80% 851px;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media (max-width: 768px){
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+        min-height: 50vh;
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1279px){
+       
+        padding-top:calc( 50vw + 45px);
+        margin-top: -56px;
+        display: flex;
+        justify-content: center;
+
+    }
+    
     &__content {
         max-width:640px ;
 

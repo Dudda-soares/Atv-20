@@ -1,0 +1,57 @@
+@use './variaveis';
+
+.footer{
+    background-image: url(../../dist/image/suny3.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: top;
+    padding: 11vw 15.6vw 0;
+
+
+    &__container{
+
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+    &__links{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__item{
+
+
+            a{
+                text-decoration: none;
+                padding: 8px 16px;
+                display: block;
+            }
+        }
+
+        .liguagem{
+
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 20px;
+                height: 20px;
+            }
+
+            select{
+                background: transparent;
+                border: none;
+                height: 38px;
+                color: variaveis.$corTextoPrincipal;
+            }
+        }
+    }
+
+
+
+}

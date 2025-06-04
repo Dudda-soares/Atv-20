@@ -6,6 +6,10 @@
     justify-items: center;
     display: flex;
     align-items: center;
+
+        @media(max-width: 768px){
+            display: block;
+        }
     
     &__tabs{
         background-image: url(../../dist/image/FUNDO3.png);
@@ -18,6 +22,12 @@
         width: 333px;
         background-color: transparent;
         justify-content: center;
+
+        @media(max-width: 768px){
+            background-image: none;
+             margin-right: 0;
+        }
+
 
         &__button{
             color: variaveis.$corTextoSegundario;
@@ -34,6 +44,9 @@
                 
                 
             }
+            @media(max-width: 768px){
+                font-size: 16px;
+            }
         }
     }
 
@@ -43,6 +56,10 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 58px;
         margin-top: 30px;
+
+        @media (max-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
         
 
         &--is--active{

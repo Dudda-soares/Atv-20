@@ -1,0 +1,49 @@
+.carousel {
+    z-index: 5;
+    margin-top: 100px; 
+    padding: 3vw 22.6vw;
+    
+   @media(max-width: 768px){
+        padding: 2vw 5.5vw;
+        margin-top: 1px; 
+
+    }
+}
+    
+.carousel-item{
+    
+}
+
+.carousel-item img{
+
+        
+    @media(max-width: 768px){
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    }
+    
+
+}
+#indicadores-carousel{
+    bottom: 55px;
+    @media(max-width: 768px){
+        bottom: 2px;
+
+    }
+    
+}
+#prev, #next {
+    width: 60%;
+
+    @media(max-width: 768px){
+        width: 22%;
+
+    }
+    
+
+    
+    
+}
