@@ -4,6 +4,18 @@
     padding: 3vw 15.6vw;
     justify-items: center;
     
+      @media (max-width: 767px){
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
 
     h2{
         display: flex;
@@ -27,9 +39,13 @@
             left: 802px;
             bottom: 11px;
 
-            @media (max-width: 768px){
-             left: 431px;
+            @media (max-width: 767px){
+             left: 495px;
             }
+            @media (min-width: 768px) and (max-width: 1023px){
+                left: 601px;
+            }
+            
         }
     }
 
@@ -38,13 +54,21 @@
         gap: 23px;
         grid-template-columns:  repeat(5, 1fr);
 
-        @media (max-width: 768px){
+        @media (max-width: 767px){
             padding: 0;
             display: grid;
             gap: 10px;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             justify-items: center;
         }
+
+        @media (min-width: 768px) and (max-width: 1023px){
+           grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            padding-left: 0;
+
+        }
+        
 
         &__item{
             perspective: 1000px;
@@ -52,9 +76,16 @@
             height: 346px;
             position: relative;
 
-            @media (max-width: 768px){
-                    width: 146px;
-                    height: 206px;
+            @media (max-width: 767px){
+
+                width: 206px;
+                height: 293px;
+            }
+
+             @media (min-width: 768px) and (max-width: 1023px){
+               width: 194px;
+                height: 277px;
+
             }
 
             &:hover{
@@ -73,7 +104,7 @@
             
             cursor: pointer;
 
-            @media (max-width: 768px){
+            @media (max-width: 767px){
                     width: 100%;
                     height: 93%;
             }
@@ -82,11 +113,8 @@
     }
 
     .flip__container{
-        @media (max-width: 768px){
-                width: 344px;
-                flex-direction: column;
-                display: flex;
-            }
+
+      
 
         .flip{
             position: relative;
@@ -96,7 +124,10 @@
             transform-style: preserve-3d;
             position: relative;
             
-            
+            @media (max-width: 768px){
+                width: 100%;
+
+            }
 
             &__front{
                 position: absolute;
@@ -111,6 +142,21 @@
                 width: 100%;
                 height: 100%;
                 backface-visibility: hidden;
+
+                @media (max-width: 768px){
+                    width: 94%;
+                    height: 94%;
+                
+                    
+
+                }
+
+                img{
+                    @media (max-width: 768px){
+                    width: 100%;
+
+                    }
+                }
             
 
             }

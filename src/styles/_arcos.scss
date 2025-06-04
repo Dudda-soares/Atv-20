@@ -2,13 +2,23 @@
 
 .arcos{
     
+    
     padding: 4vw 9.6vw;
     justify-items: center;
     display: flex;
     align-items: center;
 
-        @media(max-width: 768px){
-            display: block;
+        @media(max-width: 767px){
+            padding: 14vw 9.6vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px){
+            padding: 31vw 9.6vw;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
         }
     
     &__tabs{
@@ -23,10 +33,22 @@
         background-color: transparent;
         justify-content: center;
 
-        @media(max-width: 768px){
+        @media(max-width: 767px){
             background-image: none;
-             margin-right: 0;
+            margin-right: 0;
+            width: 260px;
+            height: 98px;
         }
+        @media (min-width: 768px) and (max-width: 1279px){
+            display: flex ;
+            flex-direction: row;
+            background-image: none;
+            width: 260px;
+            height: 98px;
+            margin-right: 0;
+
+        }
+    
 
 
         &__button{
@@ -44,7 +66,7 @@
                 
                 
             }
-            @media(max-width: 768px){
+            @media(max-width: 767px){
                 font-size: 16px;
             }
         }
@@ -57,9 +79,19 @@
         gap: 58px;
         margin-top: 30px;
 
-        @media (max-width: 768px){
-            grid-template-columns: 1fr 1fr;
+        @media (max-width: 767px){
+            padding-left: 0;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+            margin-top: 45px;
+
         }
+        @media (min-width: 768px) and (max-width: 1023px){
+            padding-left: 0;
+            margin-top: 45px;
+
+        }
+
         
 
         &--is--active{
@@ -73,6 +105,17 @@
             position: relative;
             overflow: hidden;
             border-radius: 10px;
+
+            @media (max-width: 767px){
+                 width: 199px;
+                height: 293px;
+
+            }
+            @media (min-width: 768px) and (max-width: 1023px){
+                padding-left: 0;
+                margin-top: 45px;
+
+            }
 
             &:hover{
                 border: 2px solid #040714;
@@ -115,6 +158,10 @@
                 opacity: 0;
                 transition: 0.4s ease;
                 padding: 20px;
+
+                @media (max-width: 767px){
+                    padding: 0;
+                }
 
             }
             &:hover img {
