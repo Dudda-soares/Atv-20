@@ -306,7 +306,7 @@
 @media (max-width: 767px) {
   .perfil__list img {
     width: 100%;
-    height: 93%;
+    height: 100%;
   }
 }
 .perfil .flip__container .flip {
@@ -317,7 +317,7 @@
   transform-style: preserve-3d;
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .perfil .flip__container .flip {
     width: 100%;
   }
@@ -335,10 +335,10 @@
   height: 100%;
   backface-visibility: hidden;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .perfil .flip__container .flip__back {
-    width: 94%;
-    height: 94%;
+    width: 97%;
+    height: 100%;
   }
 }
 @media (max-width: 768px) {
