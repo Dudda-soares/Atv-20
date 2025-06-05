@@ -113,6 +113,9 @@
   gap: 3.625rem;
   margin-top: 1.87rem;
 }
+.arcos__list--is--active {
+  display: grid;
+}
 @media (max-width: 767px) {
   .arcos__list {
     padding-left: 0;
@@ -126,9 +129,6 @@
     padding-left: 0;
     margin-top: 2.8125rem;
   }
-}
-.arcos__list--is--active {
-  display: grid;
 }
 .arcos__list__item {
   display: grid;
@@ -437,10 +437,8 @@
 }
 @media (max-width: 767px) {
   .header .button {
-    font-size: 1.27vw;
-    padding: 0.78vw 1.07vw;
-    height: 3.91vw;
-    letter-spacing: 0;
+    height: 5.6VW;
+    padding: 0px 1.98vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {

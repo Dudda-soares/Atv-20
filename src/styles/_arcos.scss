@@ -77,6 +77,10 @@
         gap: 3.625rem;
         margin-top: 1.87rem;
 
+        &--is--active{
+            display: grid;
+        }
+
         @media (max-width: 767px){
             padding-left: 0;
             grid-template-columns: repeat(2,1fr);
@@ -90,11 +94,7 @@
 
         }
 
-        
-
-        &--is--active{
-            display: grid;
-        }
+    
         &__item{
 
             display: grid;
