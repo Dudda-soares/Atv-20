@@ -25,6 +25,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+         @media (max-width: 767px){
+             justify-content: space-between;
+            align-items: center;
+        }
+
     }
 
     &__logo{
@@ -33,7 +38,7 @@
         transition: opacity .5s ease;
 
         @media (max-width: 767px){
-            max-width: 6.25vw;
+            max-width: 13.25vw;
         }
 
         @media (min-width:768px) and (max-width: 1023px){
@@ -45,6 +50,10 @@
     &__links{
 
         display: flex;
+
+        @media (max-width: 767px){
+            margin-bottom: 0;
+        }
 
         &__item{
             margin: 0.49vw;
@@ -74,8 +83,9 @@
 
 
         @media (max-width:767px){
-            height: 5.60VW;
-            padding: 0px 1.98vw;
+           
+            height: 9.6VW;
+            padding: 0px 2.9vw;
            
         }
 

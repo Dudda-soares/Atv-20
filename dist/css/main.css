@@ -48,7 +48,7 @@
 }
 @media (max-width: 767px) {
   .arcos {
-    padding: 14vw 9.6vw;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
   }
@@ -140,8 +140,8 @@
 }
 @media (max-width: 767px) {
   .arcos__list__item {
-    width: 12.4375rem;
-    height: 18.3125rem;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -351,8 +351,8 @@
 }
 @media (max-width: 767px) {
   .maps iframe {
-    width: 39vw;
-    height: 34.7vw;
+    width: 90vw;
+    height: 89.7vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -369,8 +369,9 @@
 }
 @media (max-width: 767px) {
   .maps h2, .maps .h2 {
+    font-size: 9vw;
     text-align: center;
-    line-height: 6.8vw;
+    line-height: 10.8vw;
   }
 }
 
@@ -396,6 +397,12 @@
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .header__container {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .header__logo {
   max-width: 3.4vw;
   width: 100%;
@@ -403,7 +410,7 @@
 }
 @media (max-width: 767px) {
   .header__logo {
-    max-width: 6.25vw;
+    max-width: 13.25vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -413,6 +420,11 @@
 }
 .header__links {
   display: flex;
+}
+@media (max-width: 767px) {
+  .header__links {
+    margin-bottom: 0;
+  }
 }
 .header__links__item {
   margin: 0.49vw;
@@ -437,8 +449,8 @@
 }
 @media (max-width: 767px) {
   .header .button {
-    height: 5.6VW;
-    padding: 0px 1.98vw;
+    height: 9.6VW;
+    padding: 0px 2.9vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
