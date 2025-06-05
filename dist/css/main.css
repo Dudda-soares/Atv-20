@@ -352,6 +352,11 @@
   justify-items: center;
 }
 @media (max-width: 767px) {
+  .maps {
+    padding: 3vw 8.6vw;
+  }
+}
+@media (max-width: 767px) {
   .maps iframe {
     width: 80vw;
     height: 80vw;

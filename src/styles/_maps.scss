@@ -1,7 +1,10 @@
 .maps{
     padding: 3vw 15.6vw;
     justify-items: center;
-
+     
+    @media(max-width: 767px){
+         padding: 3vw 8.6vw;
+     }
     
     iframe {
 
