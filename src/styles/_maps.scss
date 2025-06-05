@@ -6,8 +6,13 @@
     iframe {
 
         @media(max-width: 767px){
-            width: 304px;
-            height: 266px;
+            width: 39vw;
+            height: 34.7vw;
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px){
+           width: 79vw;
+            height: 59.7vw;
         }
 
     }
@@ -15,14 +20,14 @@
     
 
     h2{
-        margin-bottom: 60px;
+        margin-bottom: 3.1;
         font-family: fantasy;
-        font-size: 58px;
+        font-size: 3vw;
         letter-spacing: 2px;
 
          @media (max-width: 767px){
             text-align: center;
-            line-height: 52px;
+            line-height: 6.8vw;
         }
     }
 

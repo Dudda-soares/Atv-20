@@ -2,10 +2,10 @@
 
 .hero{
     padding:0vw 10.6vw;
-    min-height: 92vh;
+    min-height: 97vh;
     background-image: url(../image/abc.png);
     text-align: center;
-    background-size: 80% 851px;
+    background-size: 84% 48.13vw;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -17,29 +17,29 @@
 
     }
 
-    @media (min-width: 768px) and (max-width: 1279px){
+    @media (min-width: 768px) and (max-width: 1023px){
        
-        background-size: 114% 741px;
+        background-size: 114% 72.34vw;
     }
     
     &__content {
-        max-width:640px ;
+        max-width: 62.5vw ;
 
         &__branding{
-            max-width: 320px;
+            max-width: 31.25vw;
 
             img{
-                width: 549px;
+                width: 53.56vw;
             }
 
             @media (max-width: 767px){
-                max-width: 180px;
+                max-width: 17.58vw;
             }
 
             .titulo--small{
-                margin-bottom: 64px;
-                width: 435px;
-                margin-left: 46px;
+                margin-bottom: 6.25vw;
+                width: 42.48vw;
+                margin-left: 4.49vw;
             }
         }
         

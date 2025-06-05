@@ -21,29 +21,25 @@
     }
     
     &__container{
-        padding: 0px 36px ;
+        padding: 0px 3.52vw ;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        @media (max-width: 767px){
-            padding: 0 12px 0 20px;
-        }
-        @media (min-width: 768px) and (max-width: 1023px){
-            padding: 0 12px 0 20px;
-        }
-
     }
 
     &__logo{
-        max-width: 60px;
+        max-width: 3.40vw;
         width: 100%;
-        margin: 5px;
         transition: opacity .5s ease;
 
         @media (max-width: 767px){
-            max-width: 64px;
+            max-width: 6.25vw;
         }
+
+        @media (min-width:768px) and (max-width: 1023px){
+            max-width: 7.25vw;
+        }
+        
     }
 
     &__links{
@@ -51,7 +47,7 @@
         display: flex;
 
         &__item{
-            margin: 5px;
+            margin: 0.49vw;
             transition: opacity .5s ease;
         }
     }
@@ -60,12 +56,12 @@
         
         display: flex;
         align-items: center;
-        height: 45px;
+        height: 2.5vw;
         width: 100%;
         letter-spacing: 1px;
-        padding: 0px 10px;
+        padding: 0px 0.98vw;
         text-transform: uppercase;
-        border-radius: 5px;
+        border-radius: 0.49vw;
         text-decoration: none;
         color: variaveis.$corTextoSegundario;
         background-color: variaveis.$corDeFundoBotaoPrimario;
@@ -78,11 +74,16 @@
 
 
         @media (max-width:767px){
-            font-size: 13px;
-            padding: 8px 11px;
-            height: 40;
+            font-size: 1.27vw;
+            padding: 0.78vw 1.07vw;
+            height: 3.91vw;
             letter-spacing: 0;
         }
+
+        @media (min-width:768px) and (max-width: 1023px){
+            height: 5.7vw;
+        }
     }
+
 }
 

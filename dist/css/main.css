@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .hero {
   padding: 0vw 10.6vw;
-  min-height: 92vh;
+  min-height: 97vh;
   background-image: url(../image/abc.png);
   text-align: center;
-  background-size: 80% 851px;
+  background-size: 84% 48.13vw;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -15,29 +15,29 @@
     min-height: 50vh;
   }
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .hero {
-    background-size: 114% 741px;
+    background-size: 114% 72.34vw;
   }
 }
 .hero__content {
-  max-width: 640px;
+  max-width: 62.5vw;
 }
 .hero__content__branding {
-  max-width: 320px;
+  max-width: 31.25vw;
 }
 .hero__content__branding img {
-  width: 549px;
+  width: 53.56vw;
 }
 @media (max-width: 767px) {
   .hero__content__branding {
-    max-width: 180px;
+    max-width: 17.58vw;
   }
 }
 .hero__content__branding .titulo--small {
-  margin-bottom: 64px;
-  width: 435px;
-  margin-left: 46px;
+  margin-bottom: 6.25vw;
+  width: 42.48vw;
+  margin-left: 4.49vw;
 }
 
 .arcos {
@@ -55,21 +55,20 @@
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .arcos {
-    padding: 31vw 9.6vw;
-    margin-top: 40px;
+    padding: 0 9.6vw;
     display: flex;
     flex-direction: column;
   }
 }
 .arcos__tabs {
   background-image: url(../../dist/image/FUNDO3.png);
-  background-size: 100% 406px;
+  background-size: 100% 25.375rem;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-right: 45px;
-  height: 288px;
-  width: 333px;
+  margin-right: 2.8125rem;
+  height: 18rem;
+  width: 20.8125rem;
   background-color: transparent;
   justify-content: center;
 }
@@ -77,27 +76,26 @@
   .arcos__tabs {
     background-image: none;
     margin-right: 0;
-    width: 260px;
-    height: 98px;
+    width: 16.25rem;
+    height: 6.125rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .arcos__tabs {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-image: none;
-    width: 260px;
-    height: 98px;
+    width: 16.25rem;
+    height: 16.25rem;
     margin-right: 0;
   }
 }
 .arcos__tabs__button {
   color: #f9f9f9;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: none;
   background: none;
   text-transform: uppercase;
-  margin: 11px 3vw;
+  margin: 0.6875rem 3vw;
   cursor: pointer;
   border-bottom: 1px solid transparent;
 }
@@ -106,27 +104,27 @@
 }
 @media (max-width: 767px) {
   .arcos__tabs__button {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 .arcos__list {
   display: none;
   grid-template-columns: repeat(3, 1fr);
-  gap: 58px;
-  margin-top: 30px;
+  gap: 3.625rem;
+  margin-top: 1.87rem;
 }
 @media (max-width: 767px) {
   .arcos__list {
     padding-left: 0;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
-    margin-top: 45px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2.8125rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .arcos__list {
     padding-left: 0;
-    margin-top: 45px;
+    margin-top: 2.8125rem;
   }
 }
 .arcos__list--is--active {
@@ -134,22 +132,22 @@
 }
 .arcos__list__item {
   display: grid;
-  width: 273px;
-  height: 383px;
+  width: 17.0625rem;
+  height: 23.9375rem;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 @media (max-width: 767px) {
   .arcos__list__item {
-    width: 199px;
-    height: 293px;
+    width: 12.4375rem;
+    height: 18.3125rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .arcos__list__item {
-    padding-left: 0;
-    margin-top: 45px;
+    width: 12.4375rem;
+    height: 18.3125rem;
   }
 }
 .arcos__list__item:hover {
@@ -184,7 +182,7 @@
   text-align: center;
   opacity: 0;
   transition: 0.4s ease;
-  padding: 20px;
+  padding: 1.25rem;
 }
 @media (max-width: 767px) {
   .arcos__flip__back {
@@ -219,46 +217,50 @@
 .perfil h2, .perfil .h2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 4.85vw;
   position: relative;
   z-index: 0;
   font-family: fantasy;
-  font-size: 58px;
-  letter-spacing: 2px;
+  font-size: 2.66vw;
+  letter-spacing: 0.2vw;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .perfil h2, .perfil .h2 {
     text-align: center;
-    line-height: 52px;
+    line-height: 5.08vw;
+    font-size: 6.66vw;
   }
 }
 .perfil h2 img, .perfil .h2 img {
   position: absolute;
   z-index: 1;
-  width: 102px;
-  left: 802px;
-  bottom: 11px;
+  width: 6.96vw;
+  left: 40.71vw;
+  bottom: 0.1vw;
 }
 @media (max-width: 767px) {
   .perfil h2 img, .perfil .h2 img {
-    left: 495px;
+    left: 60.3vw;
+    bottom: 1vw;
+    width: 11.96vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .perfil h2 img, .perfil .h2 img {
-    left: 601px;
+    left: 58.69vw;
   }
 }
 .perfil__list {
   display: grid;
-  gap: 23px;
+  gap: 1.2vw;
   grid-template-columns: repeat(5, 1fr);
+  padding-left: 0;
 }
 @media (max-width: 767px) {
   .perfil__list {
     padding: 0;
     display: grid;
-    gap: 10px;
+    gap: 0.97vw;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
@@ -271,21 +273,21 @@
   }
 }
 .perfil__list__item {
-  perspective: 1000px;
-  width: 225px;
-  height: 346px;
+  perspective: 97.65vw;
+  width: 12.11vw;
+  height: 17.61vw;
   position: relative;
 }
 @media (max-width: 767px) {
   .perfil__list__item {
-    width: 206px;
-    height: 293px;
+    width: 26.11vw;
+    height: 41.61vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .perfil__list__item {
-    width: 194px;
-    height: 277px;
+    width: 18.95vw;
+    height: 27.5vw;
   }
 }
 .perfil__list__item:hover {
@@ -349,20 +351,26 @@
 }
 @media (max-width: 767px) {
   .maps iframe {
-    width: 304px;
-    height: 266px;
+    width: 39vw;
+    height: 34.7vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .maps iframe {
+    width: 79vw;
+    height: 59.7vw;
   }
 }
 .maps h2, .maps .h2 {
-  margin-bottom: 60px;
+  margin-bottom: 3.1;
   font-family: fantasy;
-  font-size: 58px;
+  font-size: 3vw;
   letter-spacing: 2px;
 }
 @media (max-width: 767px) {
   .maps h2, .maps .h2 {
     text-align: center;
-    line-height: 52px;
+    line-height: 6.8vw;
   }
 }
 
@@ -383,48 +391,42 @@
   visibility: hidden;
 }
 .header__container {
-  padding: 0px 36px;
+  padding: 0px 3.52vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 767px) {
-  .header__container {
-    padding: 0 12px 0 20px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .header__container {
-    padding: 0 12px 0 20px;
-  }
-}
 .header__logo {
-  max-width: 60px;
+  max-width: 3.4vw;
   width: 100%;
-  margin: 5px;
   transition: opacity 0.5s ease;
 }
 @media (max-width: 767px) {
   .header__logo {
-    max-width: 64px;
+    max-width: 6.25vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__logo {
+    max-width: 7.25vw;
   }
 }
 .header__links {
   display: flex;
 }
 .header__links__item {
-  margin: 5px;
+  margin: 0.49vw;
   transition: opacity 0.5s ease;
 }
 .header .button {
   display: flex;
   align-items: center;
-  height: 45px;
+  height: 2.5vw;
   width: 100%;
   letter-spacing: 1px;
-  padding: 0px 10px;
+  padding: 0px 0.98vw;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 0.49vw;
   text-decoration: none;
   color: #f9f9f9;
   background-color: rgba(133, 10, 249, 0.3803921569);
@@ -435,10 +437,15 @@
 }
 @media (max-width: 767px) {
   .header .button {
-    font-size: 13px;
-    padding: 8px 11px;
-    height: 40;
+    font-size: 1.27vw;
+    padding: 0.78vw 1.07vw;
+    height: 3.91vw;
     letter-spacing: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header .button {
+    height: 5.7vw;
   }
 }
 
@@ -589,32 +596,36 @@
 @media (max-width: 767px) {
   .carousel {
     padding: 2vw 5.5vw;
-    margin-top: 1px;
+    margin-top: 0.1vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .carousel {
     padding: 2vw 5.5vw;
-    margin-top: 1px;
+    margin-top: 0.1vw;
   }
 }
 
 @media (max-width: 767px) {
   .carousel-item img {
     width: 100%;
-    height: auto;
-    max-height: 500px;
+    height: 51vw;
     object-fit: cover;
     border: 3px solid #fff;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .carousel-item img {
+    height: 40vw;
+  }
+}
 
 #indicadores-carousel {
-  bottom: 55px;
+  bottom: 5.37vw;
 }
 @media (max-width: 767px) {
   #indicadores-carousel {
-    bottom: 2px;
+    bottom: 0.2vw;
   }
 }
 

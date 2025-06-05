@@ -5,12 +5,12 @@
     
    @media(max-width: 767px){
         padding: 2vw 5.5vw;
-        margin-top: 1px; 
+        margin-top: 0.1vw; 
 
     }
     @media (min-width: 768px) and (max-width: 1023px){
         padding: 2vw 5.5vw;
-            margin-top: 1px; 
+            margin-top: 0.1vw; 
     }
 }
     
@@ -20,18 +20,22 @@
         
     @media(max-width: 767px){
     width: 100%;
-    height: auto;
-    max-height: 500px;
+    height: 51vw;
+
     object-fit: cover;
     border: 3px solid #fff;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px){
+        height: 40vw;
     }
     
 
 }
 #indicadores-carousel{
-    bottom: 55px;
+    bottom: 5.37vw;
     @media(max-width: 767px){
-        bottom: 2px;
+        bottom: 0.2vw;
 
     }
     

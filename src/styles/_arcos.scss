@@ -15,36 +15,34 @@
         }
 
         @media (min-width: 768px) and (max-width: 1023px){
-            padding: 31vw 9.6vw;
-            margin-top: 40px;
+            padding: 0 9.6vw;
             display: flex;
             flex-direction: column;
         }
     
     &__tabs{
         background-image: url(../../dist/image/FUNDO3.png);
-        background-size: 100% 406px;
+        background-size: 100% 25.375rem;
         background-repeat: no-repeat;
         display: flex ;
         flex-direction: column;
-        margin-right: 45px;
-        height: 288px;
-        width: 333px;
+        margin-right: 2.8125rem;
+        height: 18rem;
+        width: 20.8125rem;
         background-color: transparent;
         justify-content: center;
 
         @media(max-width: 767px){
             background-image: none;
             margin-right: 0;
-            width: 260px;
-            height: 98px;
+            width: 16.25rem;
+            height: 6.125rem;
         }
-        @media (min-width: 768px) and (max-width: 1279px){
-            display: flex ;
-            flex-direction: row;
+        @media (min-width: 768px) and (max-width: 1023px){
+            flex-direction: column;
             background-image: none;
-            width: 260px;
-            height: 98px;
+            width: 16.25rem;
+            height: 16.25rem;
             margin-right: 0;
 
         }
@@ -53,11 +51,11 @@
 
         &__button{
             color: variaveis.$corTextoSegundario;
-            font-size: 20px;
+            font-size: 1.25rem;
             border: none;
             background: none;
             text-transform: uppercase;
-            margin: 11px 3vw;
+            margin: 0.6875rem 3vw;
             cursor: pointer;
             border-bottom: 1px solid transparent;
 
@@ -67,7 +65,7 @@
                 
             }
             @media(max-width: 767px){
-                font-size: 16px;
+                font-size: 1rem;
             }
         }
     }
@@ -76,19 +74,19 @@
 
         display: none;
         grid-template-columns: repeat(3, 1fr);
-        gap: 58px;
-        margin-top: 30px;
+        gap: 3.625rem;
+        margin-top: 1.87rem;
 
         @media (max-width: 767px){
             padding-left: 0;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 16px;
-            margin-top: 45px;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+            margin-top: 2.8125rem;
 
         }
         @media (min-width: 768px) and (max-width: 1023px){
             padding-left: 0;
-            margin-top: 45px;
+            margin-top: 2.8125rem;
 
         }
 
@@ -100,20 +98,22 @@
         &__item{
 
             display: grid;
-            width: 273px;
-            height: 383px;
+            width: 17.0625rem; 
+            height: 23.9375rem;;
             position: relative;
             overflow: hidden;
-            border-radius: 10px;
+            border-radius: 0.625rem;
+
+           
 
             @media (max-width: 767px){
-                 width: 199px;
-                height: 293px;
+                 width: 12.4375rem;
+                height: 18.3125rem; 
 
             }
             @media (min-width: 768px) and (max-width: 1023px){
-                padding-left: 0;
-                margin-top: 45px;
+                width: 12.4375rem;
+                height: 18.3125rem; 
 
             }
 
@@ -157,7 +157,7 @@
                 text-align: center;
                 opacity: 0;
                 transition: 0.4s ease;
-                padding: 20px;
+                padding: 1.25rem;
 
                 @media (max-width: 767px){
                     padding: 0;
