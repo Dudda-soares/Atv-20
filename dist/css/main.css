@@ -202,6 +202,7 @@
 }
 @media (max-width: 767px) {
   .perfil {
+    padding: 17.5vw 15.6vw;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -217,32 +218,33 @@
 .perfil h2, .perfil .h2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 4.85vw;
+  margin-bottom: 2.85vw;
   position: relative;
   z-index: 0;
-  font-family: fantasy;
-  font-size: 2.66vw;
+  font-family: "Passion One", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.1vw;
   letter-spacing: 0.2vw;
 }
 @media (max-width: 767px) {
   .perfil h2, .perfil .h2 {
     text-align: center;
     line-height: 5.08vw;
-    font-size: 6.66vw;
+    font-size: 7.66vw;
   }
 }
 .perfil h2 img, .perfil .h2 img {
   position: absolute;
   z-index: 1;
   width: 6.96vw;
-  left: 40.71vw;
-  bottom: 0.1vw;
+  left: 42.8vw;
+  bottom: 0.4vw;
 }
 @media (max-width: 767px) {
   .perfil h2 img, .perfil .h2 img {
-    left: 60.3vw;
-    bottom: 1vw;
-    width: 11.96vw;
+    left: 63.3vw;
+    bottom: 1.2vw;
+    width: 13.96vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -258,10 +260,10 @@
 }
 @media (max-width: 767px) {
   .perfil__list {
-    padding: 0;
+    padding: 13.5vw 0;
     display: grid;
-    gap: 0.97vw;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.97vw;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
 }
@@ -280,8 +282,8 @@
 }
 @media (max-width: 767px) {
   .perfil__list__item {
-    width: 26.11vw;
-    height: 41.61vw;
+    width: 37.11vw;
+    height: 47.61vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -351,8 +353,8 @@
 }
 @media (max-width: 767px) {
   .maps iframe {
-    width: 90vw;
-    height: 89.7vw;
+    width: 83vw;
+    height: 84.7vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -362,10 +364,11 @@
   }
 }
 .maps h2, .maps .h2 {
-  margin-bottom: 3.1;
-  font-family: fantasy;
+  margin-bottom: 3.1vw;
+  font-family: "Passion One", sans-serif;
   font-size: 3vw;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .maps h2, .maps .h2 {
@@ -524,9 +527,9 @@
 @media (max-width: 767px) {
   .faq {
     background-image: url(../../dist/image/zzzz.png);
-    padding: 13vw 9.6vw;
-    background-size: 135px;
-    background-position: 19% -2%;
+    padding: 27vw 9.6vw;
+    background-size: 33.5vw;
+    background-position: 15% -8%;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -537,8 +540,15 @@
 .faq h2, .faq .h2 {
   text-align: center;
   margin-bottom: 30px;
-  font-family: fantasy;
+  font-family: "Passion One", sans-serif;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+}
+@media (max-width: 767px) {
+  .faq h2, .faq .h2 {
+    font-size: 6.5vw;
+  }
 }
 @media (max-width: 767px) {
   .faq__pergunta {
