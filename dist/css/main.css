@@ -15,7 +15,7 @@
     min-height: 50vh;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .hero {
     background-size: 114% 72.34vw;
   }
@@ -53,7 +53,7 @@
     flex-direction: column;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .arcos {
     padding: 0 9.6vw;
     display: flex;
@@ -80,7 +80,7 @@
     height: 6.125rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .arcos__tabs {
     flex-direction: column;
     background-image: none;
@@ -124,7 +124,7 @@
     margin-top: 2.8125rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .arcos__list {
     padding-left: 0;
     margin-top: 2.8125rem;
@@ -144,7 +144,7 @@
     height: 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .arcos__list__item {
     width: 12.4375rem;
     height: 18.3125rem;
@@ -213,7 +213,7 @@
     align-items: center;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .perfil {
     display: flex;
     flex-direction: column;
@@ -252,7 +252,7 @@
     width: 13.96vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .perfil h2 img, .perfil .h2 img {
     left: 58.69vw;
   }
@@ -272,7 +272,7 @@
     justify-items: center;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .perfil__list {
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -291,7 +291,7 @@
     height: 47.61vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .perfil__list__item {
     width: 18.95vw;
     height: 27.5vw;
@@ -367,7 +367,7 @@
     height: 80vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .maps iframe {
     width: 79vw;
     height: 59.7vw;
@@ -426,7 +426,7 @@
     max-width: 13.25vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header__logo {
     max-width: 7.25vw;
   }
@@ -466,7 +466,7 @@
     padding: 0px 2.9vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header .button {
     height: 5.7vw;
   }
@@ -542,7 +542,7 @@
     background-position: 15% -8%;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .faq {
     background-position: 19% -3%;
   }
@@ -565,7 +565,7 @@
     padding: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .faq__pergunta {
     padding: 0;
   }
@@ -629,7 +629,7 @@
     margin-top: 0.1vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .carousel {
     padding: 2vw 5.5vw;
     margin-top: 0.1vw;
@@ -644,7 +644,7 @@
     border: 3px solid #fff;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .carousel-item img {
     height: 40vw;
   }

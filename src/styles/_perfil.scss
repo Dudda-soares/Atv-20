@@ -11,7 +11,7 @@
         align-items: center;
         }
 
-        @media (min-width: 768px) and (max-width: 1023px){
+        @media (min-width: 768px) and (max-width:1024px){
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -49,7 +49,7 @@
                 bottom: 1.2vw;
                 width: 13.96vw;
             }
-            @media (min-width: 768px) and (max-width: 1023px){
+            @media (min-width: 768px) and (max-width:1024px){
                 left: 58.69vw;
             }
             
@@ -70,7 +70,7 @@
             justify-items: center;
         }
 
-        @media (min-width: 768px) and (max-width: 1023px){
+        @media (min-width: 768px) and (max-width: 1024px){
            grid-template-columns: repeat(4, 1fr);
             justify-items: center;
             padding-left: 0;
@@ -90,7 +90,7 @@
                 height: 47.61vw;
             }
 
-             @media (min-width: 768px) and (max-width: 1023px){
+             @media (min-width: 768px) and (max-width: 1024px){
                width: 18.95vw;
                 height: 27.5vw;
 
