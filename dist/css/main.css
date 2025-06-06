@@ -53,7 +53,7 @@
     flex-direction: column;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .arcos {
     padding: 0 9.6vw;
     display: flex;
@@ -80,7 +80,7 @@
     height: 6.125rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .arcos__tabs {
     flex-direction: column;
     background-image: none;
@@ -124,7 +124,7 @@
     margin-top: 2.8125rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .arcos__list {
     padding-left: 0;
     margin-top: 2.8125rem;
@@ -144,7 +144,7 @@
     height: 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .arcos__list__item {
     width: 12.4375rem;
     height: 18.3125rem;
@@ -426,7 +426,7 @@
     max-width: 13.25vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .header__logo {
     max-width: 7.25vw;
   }
@@ -466,7 +466,7 @@
     padding: 0px 2.9vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .header .button {
     height: 5.7vw;
   }
@@ -629,7 +629,7 @@
     margin-top: 0.1vw;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .carousel {
     padding: 2vw 5.5vw;
     margin-top: 0.1vw;
@@ -644,7 +644,7 @@
     border: 3px solid #fff;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .carousel-item img {
     height: 40vw;
   }
